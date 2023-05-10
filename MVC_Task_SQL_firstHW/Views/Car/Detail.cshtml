@@ -1,0 +1,10 @@
+﻿@model List<Car>
+
+<ul>
+    @foreach (Car car in Model)
+    {
+        <h2>Id: @car.Id</h2>
+        <h2>Year: @car.Year</h2>
+        <h2>Color: @car.Color</h2>
+    }
+</ul>
